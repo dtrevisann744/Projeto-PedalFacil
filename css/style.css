@@ -261,17 +261,17 @@ nav .bot:hover {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    gap: 20px;
+    gap: 30px;
 }
 
 .bike-1 {
-    width: 350px;
-    height: 600px;
+    width: 300px;
+    height: 550px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .conteudo-card {
@@ -283,12 +283,32 @@ nav .bot:hover {
 }
 
 .bike-1 img {
-    width: 350px;
+    width: 300px;
     border-radius: 20px 20px 0px 0px;
 }
 
 .bike-1 a {
+    display: flex;
+    align-items: center;
     text-align: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    width: 180px;
+    height: 45px;
+    color: white;
+    background-color: #16a34a;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 1px auto auto auto;
+    border-radius: 14px;
+}
+
+.bike-1 a:hover {
+    background-color: #166733;
+    transform: translateY(-2px);
+    transition: 200ms;
 }
 
 .mod-bike {
@@ -300,8 +320,9 @@ nav .bot:hover {
 
 .conteudo-card h2 {
     color: black;
-    font-size: 22px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
 }
 
 .descricao-bike {
@@ -311,6 +332,7 @@ nav .bot:hover {
     margin-top: 10px;
     padding: 0px 0px 20px 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+    line-height: 1.2;
 }
 
 .preco {
@@ -318,7 +340,7 @@ nav .bot:hover {
     margin-top: 15px;
 }
 
-.preco p {
+.preco .preco-01 {
     color: #000000a9;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
@@ -331,10 +353,129 @@ nav .bot:hover {
     color: black;
 }
 
-.disponivel {
-    margin-left: auto;
-    color: #16a34a;
+.span-2-1 {
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 12px;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.disponivel {
+    margin-left: auto; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #28b65c;
+}
+
+.bike-2  {
+    width: 300px;
+    height: 550px;
+    background-color: #ffffffb2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.bike-2 img {
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+    filter: grayscale(80%);
+    transition: filter 0.3s ease;
+}
+
+.bike-2 a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    width: 180px;
+    height: 45px;
+    color: white;
+    background-color: #7575756b;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 1px auto auto auto;
+    border-radius: 14px;
+}
+
+.indisponivel {
+    margin-left: auto; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #00000059;
+}
+
+.bike-2 h2 {
+    color: #0000006c;
+}
+
+.bike-2 .mod-bike {
+    color: #28b65ca9;
+}
+
+.pronto {
+    width: 1300px;
+    height: 160px;
+    background: linear-gradient(to left, #1c8541, #22a050 );
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.centralizador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+
+.centralizador h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+}
+
+.centralizador p {
+    color: rgba(255, 255, 255, 0.829);
+    font-family: Arial, Helvetica, sans-serif   
+}
+
+.sep {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.alugar-bike {
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    background-color: white;
+    width: 200px;
+    justify-content: center;
+    height: 50px;
+    border-radius: 20px;
+    gap: 5px;
+}
+
+.alugar-bike img {
+    position: relative;
+    top: 2px;
+}
+
+.alugar-bike a {
+    color: #16a34a;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
 }
