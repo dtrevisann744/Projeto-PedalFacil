@@ -174,7 +174,7 @@ nav .bot:hover {
     justify-content: center;
     gap: 40px;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 
 .quadros {
@@ -224,6 +224,7 @@ nav .bot:hover {
 
 .section-3 {
     padding: 80px 190px 0px 120px;
+    background-color: rgb(241, 241, 241);
 }
 
 .titulo-3 {
@@ -253,4 +254,87 @@ nav .bot:hover {
     margin-left: auto;
     color: rgba(0, 0, 0, 0.788);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bikes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.bike-1 {
+    width: 350px;
+    height: 600px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.conteudo-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.bike-1 img {
+    width: 350px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.bike-1 a {
+    text-align: center;
+}
+
+.mod-bike {
+    color: #16a34a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.conteudo-card h2 {
+    color: black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descricao-bike {
+    color: #000000a9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+}
+
+.preco {
+    display: flex;
+    margin-top: 15px;
+}
+
+.preco p {
+    color: #000000a9;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.span-2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.disponivel {
+    margin-left: auto;
+    color: #16a34a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
 }
