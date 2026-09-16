@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    flex-direction: column;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo-verde {
+    color: #16a34a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.titulo h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.bike-selecionada {
+    border: 1px solid #ececec;
+    width: 800px;
+    height: 130px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 22px;
+    gap: 20px;
+}
+
+.img-bike img {
+    width: 120px;
+    border-radius: 20px;
+    height: 90px;
+}
+
+.modelo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.letra-verde {
+    color: #16a34a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.modelo h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.dias {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.dias .letra-cinza {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #747474;
+    margin-left: 70px;
+}
+
+.dias h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.dados {
+    margin-top: 30px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.dados h2 {
+    color: #747474;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-right: 100px;
+}
+
+.dados p {
+    color: #555454;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.input-name {
+    width: 800px;
+    height: 40px;
+    border: 1px solid #74747462;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.telefone input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #74747462;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.logra-cep {
+    display: flex;
+    gap: 30px;
+}
+
+.cep input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #74747462;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.logradouro input {
+    width: 518px;
+    height: 40px;
+    border: 1px solid #74747462;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.endereco {
+    display: flex;
+    gap: 30px;
+}
+
+.numero input {
+    width: 105px;
+    height: 40px;
+    border: 1px solid #74747462;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.bairro input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #74747462;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.cidade input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #74747462;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.uf input {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #74747462;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.retirada  {
+    display: flex;
+    gap: 30px;
+}
+
+.data input {
+    width: 245px;
+    height: 40px;
+    border: 1px solid #74747462;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.horario input {
+    width: 245px;
+    height: 40px;
+    border: 1px solid #74747462;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.devolucao input {
+    width: 245px;
+    height: 40px;
+    border: 1px solid #74747462;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.card-verde {
+    width: 795px;
+    height: 100px;
+    background-color: #41ff8621;
+    border: 3px solid #1dc75b9c;
+    padding: 20px;
+    display: flex;
+    border-radius: 22px;
+    align-items: center;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.esquerda h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #0e5c2a;
+}
+
+.green {
+    color: #0e5c2a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.valor-total {
+    margin-left: auto;
+}
+
+.valor-total h1 {
+    color: #0e5c2a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    width: 790px;
+    background-color: #16a34a;
+    height: 45px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
